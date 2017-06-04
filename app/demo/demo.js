@@ -3,7 +3,7 @@ import cookieParser from 'cookie-parser'
  // var express = require('express');
 var app =express()
 app.use(function(req, res, next) {
-  res.status(404).send('Sorry cant find that !');
+  res.status(404).send('Sorry cant find that   !');
 });
 app.use(cookieParser())
 app.get('/',function(req,res){
